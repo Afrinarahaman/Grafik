@@ -105,7 +105,6 @@ public class TheGraphics extends View implements View.OnTouchListener, Runnable{
             xButterfly +=xSpeed;
             yButterfly +=ySpeed;
             //test
-//for git
             if((xButterfly +widthBut)> screenWidth || xButterfly < 1)
             {
                 xSpeed= xSpeed * (-1);
